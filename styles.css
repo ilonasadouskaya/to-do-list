@@ -66,6 +66,7 @@ body {
 }
 
 .addItem__button:hover {
+  cursor: pointer;
   background-color: #006400;
   color: white;
 }
@@ -90,6 +91,10 @@ body {
   transform: scale(1.4);
 }
 
+.listItem__checkbox:hover {
+  cursor: pointer;
+}
+
 .listItem__checkbox:checked {
   opacity: 0.5;
 }
@@ -112,7 +117,6 @@ body {
 }
 
 .listItem__editItem:hover {
-  cursor: pointer;
   border-radius: 7px;
   background: #ccffcc;
 }
@@ -153,7 +157,7 @@ body {
 }
 
 .main__removeAll:hover {
-  coursor: pointer;
+  cursor: pointer;
   background-color: rgba(247, 121, 125, 1);
   opacity: 1;
 }
